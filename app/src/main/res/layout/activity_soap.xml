@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".register.SoapActivity">
+
+    <EditText
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lTRName"
+        android:layout_marginBottom="5dp"/>
+    <EditText
+        android:inputType="textEmailAddress"
+        android:hint="Email Address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lTRMail"
+        android:layout_marginBottom="5dp"/>
+    <EditText
+        android:inputType="number"
+        android:hint="Country Code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/countryRegionCode"
+        android:layout_marginBottom="5dp"/>
+    <EditText
+        android:hint="Postal Address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/postalAddress"
+        android:layout_marginBottom="5dp"/>
+    <EditText
+        android:hint="Postal Code"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/postCode"
+        android:layout_marginBottom="5dp"/>
+    <EditText
+        android:hint="Business Reg Number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/businessRegNo"
+        android:layout_marginBottom="5dp"/>
+
+    <EditText
+        android:hint="City name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/city"
+        android:layout_marginBottom="5dp"/>
+    <EditText
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/myPassword"
+        android:layout_marginBottom="5dp"/>
+    <EditText
+        android:hint="Verification Token"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/verificationToken"
+        android:layout_marginBottom="5dp"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register User"
+        android:id="@+id/button"
+        android:textAllCaps="false"
+        android:layout_marginBottom="5dp"/>
+
+
+
+</LinearLayout>
